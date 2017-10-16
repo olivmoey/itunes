@@ -1,0 +1,76 @@
+h1 {
+    font-size: 20px;
+}
+h2, p, li {
+    font-size: 16px;
+}
+img {
+    border-radius: 5px;
+}
+.topmargin {
+    margin-top: 15px;
+}
+.btn {
+    background-color: #0093EF;
+}
+.btn-buy {
+    color: #0093EF;
+    background: none;
+}
+.btn-buy:hover {
+    background-color: #0093EF;
+}
+.info-artist {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { h1 {
+    font-size: 20px;
+}
+h2, p, li {
+    font-size: 16px;
+}
+img {
+    border-radius: 5px;
+}
+.topmargin {
+    margin-top: 15px;
+}
+.btn {
+    background-color: #0093EF;
+}
+.btn-buy {
+    color: #0093EF;
+    background: none;
+}
+.btn-buy:hover {
+    background-color: #0093EF;
+}
+.info-artist {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 35px;
+} 
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
