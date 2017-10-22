@@ -95,7 +95,22 @@ Desktop css
     hr {
         display: none;
     }
-    .row {
+    .row-1 {
+        display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .row-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .row-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
     }
 }
