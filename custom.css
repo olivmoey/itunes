@@ -98,7 +98,7 @@ Desktop css
     .row-1 {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: flex-start;
     }
     .row-2 {
@@ -110,7 +110,7 @@ Desktop css
     .row-3 {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
         justify-content: flex-start;
     }
 }
