@@ -1,6 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
 img {
     border-radius: 5px;
 }
+.btn {
+    background-color: #0093EF;
+}
+.btn-buy {
+    color: #0093EF;
+    background: none;
+}
+.btn-buy:hover {
+    background-color: #0093EF;
+}
+.info-artist {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.topmargin {
+    margin-top: 30px;
+}
+li span {
+    position: relative; 
+    left: 30px;
+    color: black;
+}
+ol {
+    color: #0093EF;
+}
+.navbar {
+    background-color: #0093EF;
+    height: 50px;
+}
+.header-text {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+li {
+    margin-left: -15px;
+    margin-bottom: 5px;
+}
+
 /*
 ===========
 Mobile css
@@ -20,39 +64,9 @@ Mobile css
     .topmargin {
         margin-top: 30px;
     }
-    .info-artist {
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
     hr {
         margin-top: 20px;
         margin-bottom: 35px;
-    }
-    .btn {
-        background-color: #0093EF;
-    } 
-    .btn-buy {
-        color: #0093EF;
-        background: none;
-    }
-    .btn-buy:hover {
-        background-color: #0093EF;
-    }
-    li span {
-        position: relative; 
-        left: 20px;
-        color: black;
-    }
-    ol {
-        color: #0093EF;
-    }
-    .navbar {
-        background-color: #0093EF;
-        height: 50px;
-    }
-    .header-text {
-        font-size: 20px;
-        color: white;
     }
 }
 
@@ -73,48 +87,15 @@ Desktop css
         font-size: 16px;
     }
     .topmargin {
-        margin-top: 30px;
-    }
-    .info-artist {
-        margin-bottom: 25px;
-        margin-top: 25px;
+        margin-top: 60px;
     }
     img {
         margin-bottom: 15px;
     }
-    .btn {
-        background-color: #0093EF;
-    }
-    .btn-buy {
-        color: #0093EF;
-        background: none;
-    }
-    .btn-buy:hover {
-        background-color: #0093EF;
-    }
-    li span {
-        position: relative; 
-        left: 20px;
-        color: black;
-    }
-    ol {
-        color: #0093EF;
-    }
-    .navbar {
-        background-color: #0093EF;
-        height: 50px;
-    }
-    .header-text {
-        font-size: 20px;
-        color: white;
-    }
     hr {
         display: none;
     }
-    li {
-        margin-left: -15px;
-    }
     .row {
-        display: inline-block;
+        flex-direction: column;
     }
 }
