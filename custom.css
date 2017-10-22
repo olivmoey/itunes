@@ -1,7 +1,6 @@
 img {
     border-radius: 5px;
 }
-
 /*
 ===========
 Mobile css
@@ -86,6 +85,14 @@ Desktop css
     .btn-buy:hover {
         background-color: #0093EF;
     }
+    li span {
+        position: relative; 
+        left: 20px;
+        color: black;
+    }
+    ol {
+        color: #0093EF;
+    }
     .navbar {
         background-color: #0093EF;
         height: 50px;
@@ -93,5 +100,14 @@ Desktop css
     .header-text {
         font-size: 20px;
         color: white;
+    }
+    .desktop-column {
+        flex-direction: column;
+    }
+    hr {
+        display: none;
+    }
+    li {
+        margin-left: -15px;
     }
 }
